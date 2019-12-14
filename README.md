@@ -14,3 +14,5 @@
   With the SDN controller the load balancing design comprises of open flow switch in which various servers are associated with it. SDN controller keeps p rundown of live servers that are associated with the open flow switch, and every server is appointed with static IP address. On an outstanding port 80 web facility is running on every server, virtual address covers by controller and to the virtual IP address all requests from the customers are sent. When the customers sends a request to the virtual IP, open flow switch utilized the data contained in bundle header and contrast it and flow passages in switch and if the customers bundle header data coordinates with flow section, at that point switch alter the goal virtual IP deliver to the address of one of the servers in view of load balancing procedure and forward the request to that server.
 
   we proposed a multi controller load balancingapproach for SDN called ClusterFlow (DCF). This method simpliﬁes the load balancing operation and breaks the dependency between the SC and RCs during the periodicalload balancing.
+
+https://youtu.be/vR1FS58ZPA8 youtube video
